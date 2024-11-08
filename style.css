@@ -95,7 +95,6 @@ body {
 
 .plan-text {
     margin: 10px 0px;
-    white-space: normal;
 }
 
 .plan-price-content {
@@ -132,6 +131,13 @@ body {
     align-items: center;
 }
 
+.plan-feature-item2 {
+    color: #707070;
+    margin: 10px 10px;
+    display: flex;
+    align-items: center;
+}
+
 .pricing-title {
     background: #22B122;
     text-align: center;
@@ -145,11 +151,11 @@ body {
     flex: 1;
     display: flex;
     justify-content: center;
-    border: 1px solid #3069d4;
+    border: 1px solid #fab528;
     padding: 10px;
     border-radius: 3px;
     text-decoration: none;
-    color: #3069d4;
+    color: #191919;
     transition: all .3s;
 
 }
@@ -164,12 +170,12 @@ body {
 }
 
  .plan-button-blue {
-    background: #3069d4;
-    color: #fff !important;
+    background: #fab528;
+    color: #191919 !important;
 }
 .plan-button a:hover {
-    background: #3069d4;
-    color: #fff;
+    background: #fab528;
+    color: #191919;
 }
 
 .pricing-item:hover .pricing-item-box {
@@ -191,13 +197,14 @@ body {
 }
 
 .plan-feature-item:before {content: "";width: 14px;height: 14px;/* border: 1px solid #a9a9a9; */background: #eee;margin-right: 7px;/* border-radius: 50px; */margin-bottom: 2px;}
+.plan-feature-item2:before {margin-right: 7px;/* border-radius: 50px; */margin-bottom: 2px;}
 .ribbon:before, .ribbon:after {
     content: "";
     display: block;
     position: absolute;
     height: 0px;
     bottom: -8px;
-    border: 13px solid #22B122;
+    border: 13px solid #fab528;
 }
 .ribbon {
     position: absolute;
